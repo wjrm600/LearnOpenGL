@@ -1,0 +1,13 @@
+# 줄바꿈 자동 정규화
+* text=auto
+
+# Visual Studio 프로젝트 파일은 항상 CRLF
+*.slnx             text eol=crlf
+*.vcxproj          text eol=crlf
+*.vcxproj.filters  text eol=crlf
+
+# 바이너리 파일
+*.lib binary
+*.pdb binary
+*.png binary
+*.jpg binary

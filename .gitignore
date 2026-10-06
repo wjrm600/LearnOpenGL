@@ -1,0 +1,34 @@
+# ===== Visual Studio =====
+.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+ipch/
+
+# ===== 빌드 결과물 (솔루션/프로젝트 폴더의 출력·중간 파일) =====
+/x64/
+/x86/
+/Win32/
+/Debug/
+/Release/
+/LearnOpenGL_Project/x64/
+/LearnOpenGL_Project/x86/
+/LearnOpenGL_Project/Win32/
+/LearnOpenGL_Project/Debug/
+/LearnOpenGL_Project/Release/
+
+# ===== 컴파일러/링커 산출물 =====
+*.obj
+*.ilk
+*.idb
+*.iobj
+*.ipdb
+*.tlog
+*.lastbuildstate
+*.exe
+*.recipe
+
+# ===== 기타 =====
+Thumbs.db
+Desktop.ini
